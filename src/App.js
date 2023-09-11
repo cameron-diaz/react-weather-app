@@ -32,12 +32,14 @@ function App() {
   console.log(currentWeather)
 
   const isSunny = currentWeather?.weather[0].main === 'Clear'
+  const isCloudy = currentWeather?.weather[0].main === 'Clouds'
 
 
   return (
     <div 
       className={`container 
         ${isSunny ? 'sunny' : ''}
+        ${isCloudy ? 'cloudy' : ''}
       
       `}
       >

@@ -4,7 +4,7 @@
 }
 
 .sunny {
-  background-color: #ffd700; /* You can adjust the color code to your preference */
+  
 
   /* Add a background image for a sunny effect (you can replace 'sunny-background.jpg' with your own image) */
   background-image: url('/Users/camerond/personal-projects/react-weather-app/public/photos/sunnyphoto.jpeg');
@@ -15,19 +15,12 @@
   /* Add some padding and margin for spacing */
   padding: 20px;
   margin: 20px;
-
-  /* Add a border for visual separation (optional) */
-  border: 1px solid #ccc;
-
-  /* Set text color to contrast with the background */
-  color: #333; /* You can adjust the text color as needed */
 }
 
 .cloudy {
-  background-color: #ffd700; /* You can adjust the color code to your preference */
 
   /* Add a background image for a sunny effect (you can replace 'sunny-background.jpg' with your own image) */
-  /* background-image: url('sunny-background.jpg'); */
+  background-image: url('/Users/camerond/personal-projects/react-weather-app/public/photos/stormybackground.avif');
   background-size: cover; /* Ensure the background image covers the entire container */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-attachment: fixed; /* Fixed background for a parallax effect */
@@ -35,11 +28,5 @@
   /* Add some padding and margin for spacing */
   padding: 20px;
   margin: 20px;
-
-  /* Add a border for visual separation (optional) */
-  border: 1px solid #ccc;
-
-  /* Set text color to contrast with the background */
-  color: #333; /* You can adjust the text color as needed */
 }
 

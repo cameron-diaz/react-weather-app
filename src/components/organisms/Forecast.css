@@ -46,7 +46,10 @@
     column-gap: 3rem;
     flex: 1 1;
     grid-template-columns: auto auto;
-    padding: 10px 25px;
+    padding: 10px 5rem;
+    margin: auto 2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
 }
 
 .daily-details-grid-item {
@@ -57,9 +60,10 @@
 }
 
 .daily-details-grid-item label:first-child {
-    color: #757575;
+    color: #2d2d2d;
 }
 
 .daily-details-grid-item label:last-child {
     color: #212121;
+    font-weight: 600;
 }
